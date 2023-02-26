@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <script defer src="index.js" type="module"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .panel {
+            height: 400px;
+            border: 1px solid red;
+        }
+
+        .anim, .anim-2 {
+            height: 100%;
+            background: pink;
+            width: 50%;
+        }
+
+        .anim-2 {
+            width: 0%
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section class="panel">
+        <p>Section</p>
+    </section>
+    <section class="panel" id="section-2">
+        <p>Section</p>
+    </section>
+    <section class="panel" id="section-3">
+        <div class="anim"><p><b>Section to animate</b></p></div>
+    </section>
+    <section class="panel">
+        <p>Section</p>
+    </section>
+    <section class="panel">
+        <p>Section</p>
+    </section>
+    <section class="panel">
+        <div class="anim-2"><p><b>Section to animate</b></p></div>
+    </section>
+    <section class="panel">
+        <p>Section</p>
+    </section>
+    <section class="panel">
+        <p>Section</p>
+    </section>
+    <section class="panel">
+        <p>Section</p>
+    </section>
+</main>
+</body>
+</html>
