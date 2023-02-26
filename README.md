@@ -1,5 +1,3 @@
-![alt text](docs/bewegung_logo.svg "Title")
-
 # BEWEGUNG
 
 A simple animation library written in Typescript
